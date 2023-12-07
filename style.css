@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.heading{
+  color: green;
+  font-size: 3rem;
+  text-align: center;
+}
+.p{
+    color: green;
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+
+}
+.lp{
+    color: green;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    height: 60vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height:300px;
+    width: 300px;
+}
+@media(max-width:720px){
+
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    .heading{
+        color: green;
+        font-size: 2rem;
+        text-align: center;
+      }
+      .p{
+          color: green;
+          font-size: x-large;
+          text-align: center;
+          font-family: cursive;
+      
+      }
+}
